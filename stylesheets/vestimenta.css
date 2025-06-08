@@ -1,0 +1,53 @@
+.vestimenta {
+    background: linear-gradient(#ffffff69, #ffffff69),
+    url(/images/brocado-lila.svg);
+    background-size: cover;
+    background-position: cover;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+vestimenta__elementos {
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+}
+
+.vestimenta__titulo {
+    font-size: 2rem;
+    font-family: var(--text-titles);
+    margin: 2rem 0;
+    font-weight: 400;
+}
+
+.vestimenta__contenedor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.vestimenta__contenido {
+    max-width: 400px;
+    width: 400px;
+    margin-bottom: 3rem;
+}
+
+.vestimenta__icono {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+.vestimenta__subtitulo {
+    font-size: 1.4rem;
+    font-family: var(--text-subtitles);
+    font-weight: 400;
+}
+
+.vestimenta__texto {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+

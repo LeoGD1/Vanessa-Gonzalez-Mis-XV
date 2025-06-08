@@ -1,0 +1,66 @@
+.contador {
+    background: url('../images/bg-cont.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 20vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    padding: 2rem 1rem;
+}
+
+.contador__contenedor {
+    width: 100%;
+    min-height: 200px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.contador__cuadro {
+    width: 500px;
+    min-height: 100px;
+    background: #009D71a1;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    backdrop-filter: blur(4px);
+}
+
+.contador__titulo {
+    font-family: var(--text-titles);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.contador__regresivo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.contador_contenedor {
+    margin: 0 10px;
+    margin-bottom: 1rem;
+}
+
+.contador__numero {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.contador__texto {
+    font-size: .9rem;
+    text-align: center;
+}

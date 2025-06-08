@@ -1,0 +1,30 @@
+:root {
+    --swiper-pagination-color: var(--primary-color);
+}
+
+.galeria {
+    width: 100%;
+    height: 80vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 80vh;
+}
+
+.galeria__imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (min-width: 768px) {
+    .galeria {
+        height: 100vh;
+    }
+    
+    .swiper {
+        height: 100vh;
+    }
+}

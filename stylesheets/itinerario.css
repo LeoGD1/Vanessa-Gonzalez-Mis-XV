@@ -1,0 +1,72 @@
+.itinerario {
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: var(--text-color-dark);
+}
+
+.itinerario__elementos {
+    width: 100%;
+    min-height: 200px;
+}
+
+.itinerario__titulo {
+    font-size: 2rem;
+    font-family: var(--text-titles);
+    font-weight: 400;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.itinerario__contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 50px;
+    width: 200px;
+    height: 100%;
+    padding: 2rem 0rem 2rem 3rem;
+    margin: 0 auto;
+    border-left: 2px solid #fff;
+    position: relative;
+}
+
+.itinerario__actividad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itinerario__media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.itinerario__circulo {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  position: absolute;
+  left: 0;
+  left: -10px;
+}
+
+.itinerario__nombre {
+  font-size: 1.1rem;
+}
+
+
+.itinerario__icono--modif {
+  width: 70px;
+  margin: 0 auto;
+}

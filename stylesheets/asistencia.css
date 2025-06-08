@@ -1,0 +1,74 @@
+.asistencia {
+    background: linear-gradient(#ffffff69, #ffffff69),
+    url(/images/brocado-lila.svg);
+    background-size: cover;
+    background-position: cover;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.asistencia__elementos {
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+}
+
+.asistencia__titulo {
+    font-size: 2rem;
+    font-family: var(--text-titles);
+    margin: 2rem 0 3rem;
+    font-weight: 400;
+}
+
+.asistencia__contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 4rem;
+}
+
+.asistencia__confirmacion {
+    width: 400px;
+    max-width: 400px;
+    height: auto;
+    padding: 1rem;
+}
+
+.asistencia__subtitulo {
+    font-size: 1.3rem;
+    font-family: var(--text-subtitles);
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.asistencia__nombre {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.asistencia__boton {
+    text-decoration: none;
+    color: var(--text-color-dark);
+    padding: 1rem 4rem;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 1rem;
+}
+
+.asistencia__boton:hover {
+    background-color: #fff;
+    outline: 1px solid var(--primary-color);
+    color: var(--text-color-light);
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}

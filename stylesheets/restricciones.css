@@ -1,0 +1,41 @@
+.restricciones {
+    background: linear-gradient(#ffffff69, #ffffff69);
+    background-size: cover;
+    background-position: cover;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.restricciones__elementos {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+}
+
+.restricciones__titulo {
+    font-size: 2rem;
+    font-family: var(--text-titles);
+    font-weight: 400;
+    margin: 2rem 0 3rem;
+}
+
+
+.restricciones__contenedor {
+    max-width: 300px;
+    min-height: 200px;
+    padding: 1rem;
+}
+
+.restricciones__icono {
+    max-height: 110px;
+    margin-bottom: 1rem;
+}
+
+.restricciones__texto {
+    font-size: 1.1rem;
+}

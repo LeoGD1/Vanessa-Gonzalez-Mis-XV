@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Playball&family=Vollkorn&display=swap');
+
+:root {
+    --primary-color: #009D71;
+    --secondary-color: #a18262;
+    --text-color-light: #000;
+    --text-color-dark: #fff;
+    --text-titles: 'Playball', cursive;;
+    --text-subtitles: 'Vollkorn', serif;
+    --text-paragraph: 'Diphylleia', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--text-paragraph);
+}
+
+.maxWidth {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.anim {
+    opacity: 0;
+    transform: scale(.5);
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -ms-transform: scale(.5);
+    -o-transform: scale(.5);
+    transition: 1s ease-out;
+    -webkit-transition: 1s ease-out;
+    -moz-transition: 1s ease-out;
+    -ms-transition: 1s ease-out;
+    -o-transition: 1s ease-out;
+}
+
+.anim.intersected {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}

@@ -1,0 +1,46 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--text-color-dark);
+    text-align: center;
+    z-index: 999;
+    clip-path: inset(0 0 0 0);
+    transition: clip-path 1s ease-out;
+    -webkit-transition: clip-path 1s ease-out;
+    -moz-transition: clip-path 1s ease-out;
+    -ms-transition: clip-path 1s ease-out;
+    -o-transition: clip-path 1s ease-out;
+}
+
+.loader__img {
+    width: 9rem;
+    animation: animacionLogo 3s;
+    -webkit-animation: animacionLogo 3s;
+    opacity: 0;
+}
+
+.loader.open {
+    clip-path: inset(0 0 100% 0);
+}
+
+
+@keyframes animacionLogo {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+    
+}
+
