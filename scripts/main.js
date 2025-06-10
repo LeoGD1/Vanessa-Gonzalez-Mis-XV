@@ -1,9 +1,17 @@
 /* const loader = document.querySelector('.loader'); */
 const elementoAnimado = document.querySelectorAll('.anim');
+const loader = document.querySelector('.loader');
 
-/* setTimeout(() => {
+const jsConfetti = new JSConfetti();
+
+setTimeout(() => {
     loader.classList.add('open');
-}, 2000); */
+    jsConfetti.addConfetti({
+  confettiColors: [
+    '#009D71', '#1eb187', '#42cea6', '#6df1cc', '#c3fded', '#dff7f0',
+    ],
+  });
+  }, 2000);
 
 const cargarElemento = (entradas) => {
     entradas.forEach( (entrada) => {
