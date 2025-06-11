@@ -11,7 +11,7 @@ setTimeout(() => {
     '#009D71', '#1eb187', '#42cea6', '#6df1cc', '#c3fded', '#dff7f0',
     ],
   });
-  }, 2000);
+}, 2500);
 
 const cargarElemento = (entradas) => {
     entradas.forEach( (entrada) => {
