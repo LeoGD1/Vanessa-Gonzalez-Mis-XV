@@ -1,6 +1,4 @@
 .boletos {
-    background: linear-gradient(#ffffff69, #ffffff69),
-    url(/images/brocado-lila.svg);
     background-size: cover;
     background-position: cover;
     padding: 4rem 1rem;
@@ -11,6 +9,7 @@
     width: 100%;
     min-height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;

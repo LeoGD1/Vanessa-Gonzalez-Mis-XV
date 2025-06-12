@@ -1,5 +1,6 @@
 .restricciones {
-    background: linear-gradient(#ffffff69, #ffffff69);
+    background: linear-gradient(#ffffff69, #ffffff69),
+    url(/images/brocado-lila.svg);
     background-size: cover;
     background-position: cover;
     padding: 4rem 1rem;
