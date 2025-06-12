@@ -1,6 +1,5 @@
 .asistencia {
-    background: linear-gradient(#ffffff69, #ffffff69),
-    url(/images/brocado-lila.svg);
+    background: linear-gradient(#ffffff69, #ffffff69);
     background-size: cover;
     background-position: cover;
     padding: 4rem 1rem;
